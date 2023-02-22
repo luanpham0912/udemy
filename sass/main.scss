@@ -1,0 +1,39 @@
+@import './helpers/variables';
+@import './helpers/mixin';
+@import './helpers/extend';
+
+//vendors
+//base
+@import './base/reset';
+@import './base/customize';
+//layouts
+@import './layouts/header';
+@import './layouts/footer';
+@import './layouts/intro';
+@import './layouts/course';
+@import './layouts/viewing';
+@import './layouts/banner';
+@import './layouts/categories';
+@import './layouts/student';
+@import './layouts/partner';
+@import './layouts/job';
+@import './layouts/sidebarMini';
+//components
+@import './components/button';
+@import './components/cover';
+@import './components/card';
+//pages
+@import './pages/home';
+
+//theme
+@import './theme/dark/resetDark';       
+@import './theme/dark/sidebarMiniDark';
+@import './theme/dark/headerDark';
+@import './theme/dark/courseDark';
+@import './theme/dark/categoriesDark';
+@import './theme/dark/studentDark';
+@import './theme/dark/partnerDark';
+@import './theme/dark/jobDark';
+@import './theme/dark/footerDark';
+@import './theme/dark/buttonDark';
+@import './theme/dark/cardDark';
